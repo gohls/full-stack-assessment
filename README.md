@@ -12,7 +12,7 @@ We get that time spent doesn't always clearly indicate skill level or technical 
 
 ### How do I get set up? ###
 
-Getting set up should be quite straight-forward. As this is a Docker project, please make sure you have Docker isntalled on your machine. Then simply clone this repo into a development branch on your machine (e.g. yourname-dev) with `git checkout -b <yourbranchname> origin/master` and boot things up with the commands below.
+Getting set up should be quite straight-forward. As this is a Docker project, please make sure you have Docker isntalled on your machine. Next, you will need to create a BitBucket account (if you don't already have one) and fork this repository. Then simply clone your forked repo into a development branch on your machine (e.g. yourname-dev) with `git checkout -b <yourbranchname> origin/master` and boot things up with the commands below.
 
 #### Installing Docker ####
 Instructions for installing Docker and getting your feet wet can be found here: https://docs.docker.com/get-started/
@@ -67,7 +67,7 @@ The following pages are created
 
 ### When You're Finished ###
 
-You should have been doing your work on a local development branch, as instructed above in the "How do I get set up?" section. Once you have completed the exercise, if you have not done so already, please publish your branch with `git push -u origin <yourbranchname>`. Then submit a Pull Request from your branch to our master branch and send us an email, letting us know you are all set. We'll reach out and review your work with you. We're looking forward to it!
+You should have been doing your work on a local development branch, as instructed above in the "How do I get set up?" section. Once you have completed the exercise, if you have not done so already, please publish your branch with `git push -u origin <yourbranchname>`. Then submit a Pull Request from your branch (in your forked repo) to our master branch (in the repo you forked from) and send us an email, letting us know you are all set. We'll reach out and review your work with you. We're looking forward to it!
 
 ### Need to Reach Out? ###
 Feel free to reach out to us if you need anything!
