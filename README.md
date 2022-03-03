@@ -12,7 +12,7 @@ We get that time spent doesn't always clearly indicate skill level or technical 
 
 ### How do I get set up? ###
 
-Getting set up should be quite straight-forward. As this is a Docker project, please make sure you have Docker isntalled on your machine. Next, you will need to create a BitBucket account (if you don't already have one) and fork this repository. Then simply clone your forked repo into a development branch on your machine (e.g. yourname-dev) with `git checkout -b <yourbranchname> origin/master` and boot things up with the commands below.
+Getting set up should be quite straight-forward. As this is a Docker project, please make sure you have Docker isntalled on your machine. Next, you will need to create a BitBucket account (if you don't already have one) and fork this repository. Then simply clone your forked repo and checkout a development branch on your machine (e.g. yourname-dev) with `git checkout -b <yourbranchname> origin/master` and boot things up with the commands below.
 
 #### Installing Docker ####
 Instructions for installing Docker and getting your feet wet can be found here: https://docs.docker.com/get-started/
