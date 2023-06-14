@@ -44,7 +44,7 @@ Reminder: Make sure you execute the commands found in the Helpful Tips section a
 #### Database ####
 * We need a table to store Client records
 * We need a table to store Phone numbers
-* We need to associate a client with any number of phone numbers (hint: many-to-many mapping)
+* We need to associate a client with any number of phone numbers through a mapping table of some sort
 
 #### API ####
 The following endpoints are created
