@@ -2,8 +2,8 @@ import axios from "axios";
 
 const archiveClient = async (clientId) => {
   try {
-    const response = await axios.delete(
-      `http://localhost:5000//Client/ArchiveClient/${clientId}`
+    const response = await axios.put(
+      `http://localhost:5000/Client/ArchiveClient/${clientId}`
     );
     return response.data;
   } catch (error) {
