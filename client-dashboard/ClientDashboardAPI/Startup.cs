@@ -36,7 +36,7 @@ namespace ClientDashboardAPI
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseCors(
-                options => options.WithOrigins("http://localhost:8080").AllowAnyMethod()
+                options => options.WithOrigins("http://localhost:8080").AllowAnyMethod().AllowAnyHeader()
             );
 
             if (env.IsDevelopment())

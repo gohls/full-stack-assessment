@@ -192,13 +192,13 @@ namespace ClientDashboardAPI.Controllers
                             // insert alternative phone number
                             using (var connection = new MySqlConnection(connString))
                             {
-                                alternativePhoneNumberId = await connection.ExecuteScalarAsync<int>(insertAlternativePhoneNumbersQuery, new { PhoneNumber = phoneNumber }, null /* Remove CommandType.Text */);
+                                alternativePhoneNumberId = await connection.ExecuteScalarAsync<int>(insertAlternativePhoneNumbersQuery, new { PhoneNumber = phoneNumber }, null);
                             }
 
                             // associate alternative phone number with the client
                             using (var connection = new MySqlConnection(connString))
                             {
-                                await connection.ExecuteAsync(insertClientAlternativeNumbersQuery, new { ClientID = updatedClient.Id, AlternativePhoneNumberID = alternativePhoneNumberId }, null /* Remove CommandType.Text */);
+                                await connection.ExecuteAsync(insertClientAlternativeNumbersQuery, new { ClientID = updatedClient.Id, AlternativePhoneNumberID = alternativePhoneNumberId }, null);
                             }
                         }
                     }
