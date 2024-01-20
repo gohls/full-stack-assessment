@@ -101,7 +101,7 @@ namespace ClientDashboardAPI.Controllers
 
                     using (var connection = new MySqlConnection(connString))
                     {
-                        var clientId = await connection.ExecuteScalarAsync<int>(insertClientQuery, newClient, null /* Remove CommandType.Text */);
+                        var clientId = await connection.ExecuteScalarAsync<int>(insertClientQuery, newClient, null);
                         newClient.Id = clientId;
                     }
 
@@ -163,7 +163,7 @@ namespace ClientDashboardAPI.Controllers
 
                     using (var connection = new MySqlConnection(connString))
                     {
-                        await connection.ExecuteAsync(updateClientQuery, updatedClient, null /* Remove CommandType.Text */);
+                        await connection.ExecuteAsync(updateClientQuery, updatedClient, null);
                     }
 
                     // remove existing alternative phone numbers association
@@ -172,7 +172,7 @@ namespace ClientDashboardAPI.Controllers
 
                     using (var connection = new MySqlConnection(connString))
                     {
-                        await connection.ExecuteAsync(deleteClientAlternativeNumbersQuery, new { ClientID = updatedClient.Id }, null /* Remove CommandType.Text */);
+                        await connection.ExecuteAsync(deleteClientAlternativeNumbersQuery, new { ClientID = updatedClient.Id }, null);
                     }
 
                     // insert the updated alternative phone numbers and associate them with the client
