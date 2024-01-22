@@ -64,13 +64,3 @@ The following pages are created
 	* Client name and phone number information is editable on this page
 	* A save button will persist the updates and return you back to the dashboard
 	* There is also an archive button in this page that will archive the Client record and return you to the dashboard
-
-### When You're Finished ###
-
-You should have been doing your work on a local development branch, as instructed above in the "How do I get set up?" section. Once you have completed the exercise, if you have not done so already, please publish your branch with `git push -u origin <yourbranchname>`. Then submit a Pull Request from your branch (in your forked repo) to a **new branch** (not master!) in our repo (the repo you forked from) and send us an email, letting us know you are all set. We'll reach out and review your work with you. We're looking forward to it!
-
-### Need to Reach Out? ###
-Feel free to reach out to us if you need anything!
-
-* Andrew Garver / Director of Software Engineering - andrew@porch.software
-* Kyle Ferran / CTO - kyle@porch.software
