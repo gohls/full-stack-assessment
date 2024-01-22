@@ -1,8 +1,8 @@
+# Completed Screen Shot #
+
+<img width="918" alt="Screen Shot 2024-01-21 at 7 20 58 PM" src="https://github.com/gohls/full-stack-assessment/assets/66274765/041efd8d-2071-448b-9605-53bba2c208fd">
+
 # Full Stack Technical Assessment #
-
-Thank you for your interest in Porch Software! Everyone at Porch brings immense value to the company and has a significant role to play in our success as a whole. As such, we all have a lot of responsibility and take ownership of our work with pride. This assessment will serve to help you understand the basics of our tech stack, while simultaneously giving you the oportunity to dive into a fresh project and show us what you are made of!
-
-### What Are You In For? ###
 
 #### Quick summary ####
 You will be standing up a new full stack application geared towards managing Clients and their data. The stack scaffolding has been laid out and is nicely packaged up for you in a small Docker Pod. If you are unfamiliar with Docker, that's no problem at all. We'll try to lay things out for you nice and simply down below. Acceptance Criteria (AC) for this exercise is also explained below, and should be very basic. Once you complete the basic ACs, feel free to add your own flair to your code and flex on us a bit. Once you are complete with the task, we'll sync up with you to review your code and discuss your brilliant work.
